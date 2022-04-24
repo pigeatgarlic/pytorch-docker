@@ -26,3 +26,5 @@ WORKDIR /src/build
 ENV Torch_DIR=/pytorch/libtorch/share/cmake/Torch
 RUN cmake ..
 RUN make 
+
+CMD 
